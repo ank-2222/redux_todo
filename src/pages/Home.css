@@ -1,0 +1,48 @@
+
+
+.title{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 100px;
+
+
+}
+
+.addMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.addItem{
+    width:250px;
+    height: 30px;
+  padding: 5px;
+  font-size: 16px;
+    border: none;
+
+}
+.addItem:focus{
+    width:250px;
+    height: 30px;
+  padding: 5px;
+  font-size: 16px;
+    border: none;
+  outline: none;
+}
+
+.addBtn{
+    min-height: 30px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 900;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
